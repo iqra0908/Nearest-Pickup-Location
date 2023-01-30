@@ -42,5 +42,8 @@ For this project we will use fast api to provide results in json format.
  
  (Press CTRL+C to quit)
 
+ ## Dataset
+ https://www.kaggle.com/datasets/starbucks/store-locations
+ 
  ## Additional Documentation
  https://realpython.com/fastapi-python-web-apis/#what-is-fastapi
