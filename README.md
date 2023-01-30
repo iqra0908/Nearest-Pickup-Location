@@ -1,10 +1,10 @@
 # Nearest-Pickup-Location
 
 The idea of this project is to find the nearest store to pickup a certain item in stock, given your location.\
-This is a general idea in E-commerce to identify stores closest to a given zipcode that have a certain product available.\
+This is a general idea in E-commerce to identify stores closest to a given zipcode that have a certain product available.
 
 ### Example
-![alt text](TargetStores.png)
+<img src="TargetStores.png" width="300" height="500">
 
 
 For this project we will use fast api to provide results in json format.
