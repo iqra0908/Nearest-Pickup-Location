@@ -8,6 +8,6 @@ service = Service('directory.csv')
 async def root():
     return {"message": "Hello World"}
 
-@app.get("/nearestStarbucks/")
+@app.get("/nearestStarbucks/{country_code}/{zip_code}")
 async def getNearestStarbucks(country_code: str = '', zip_code: str = ''):
     return service.getNearestStarbucks(country_code,zip_code)

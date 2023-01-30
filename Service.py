@@ -5,7 +5,7 @@ import math
 
 class Service:
   def __init__(self, filename):
-    self.df = pd.read_csv ('directory.csv')
+    self.df = pd.read_csv (filename)
 
   def getNearestStarbucks(self, countryCode, zipcode):
     nomi = pgeocode.Nominatim(countryCode)
